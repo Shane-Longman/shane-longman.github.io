@@ -1,0 +1,23 @@
+{
+  "subject": "acct:admin@shane-longman.github.io",
+  "aliases": [
+    "https://shane-longman.github.io/@admin",
+    "https://shane-longman.github.io/users/admin"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://shane-longman.github.io/@admin"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://shane-longman.github.io/users/admin"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://shane-longman.github.io/authorize_interaction?uri={uri}"
+    }
+  ]
+}
